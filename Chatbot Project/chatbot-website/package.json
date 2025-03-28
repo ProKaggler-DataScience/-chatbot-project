@@ -1,0 +1,31 @@
+{
+  "name": "chatbot-website",
+  "version": "1.0.0",
+  "description": "A chatbot website powered by AI with advanced animations and an interactive chat interface.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "chatbot",
+    "AI",
+    "react",
+    "animations"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.0"
+  }
+}
